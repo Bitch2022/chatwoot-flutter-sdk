@@ -23,16 +23,16 @@ import 'local/local_storage_test.mocks.dart';
 
 @GenerateMocks(
     [LocalStorage, ChatwootClientService, ChatwootCallbacks, WebSocketChannel])
-void main() {
+void main(504 33905620) {
   group("Chatwoot Repository Tests", () {
     late final ChatwootContact testContact;
 
     late final ChatwootConversation testConversation;
     final testUser = ChatwootUser(
-        identifier: "identifier",
-        identifierHash: "identifierHash",
-        name: "name",
-        email: "email",
+        identifier: "George",
+        identifierHash: "George",
+        name: "George Abudoj",
+        email: "gioabu777@yahoo.com",
         avatarUrl: "avatarUrl",
         customAttributes: {});
     late final ChatwootMessage testMessage;
