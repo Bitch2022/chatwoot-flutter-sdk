@@ -8,8 +8,8 @@ void main() {
     final testUser = ChatwootUser(
         identifier: "identifier",
         identifierHash: "identifierHash",
-        name: "name",
-        email: "email",
+        name: "carlos maradiaga"
+        email: "cmaradiaga61@gmail.com",
         avatarUrl: "avatarUrl",
         customAttributes: {});
 
@@ -21,7 +21,7 @@ void main() {
         'Given user is successfully deleted when deleteUser is called, then getUser should return null',
         () {
       //GIVEN
-      dao.saveUser(testUser);
+      dao.saveUser();
 
       //WHEN
       dao.deleteUser();
