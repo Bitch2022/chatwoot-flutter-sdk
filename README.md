@@ -1,4 +1,4 @@
-[![Pub Version](https://img.shields.io/pub/v/chatwoot_client_sdk?color=blueviolet)](https://pub.dev/packages/chatwoot_sdk)
+delete[![Pub Version](https://img.shields.io/pub/v/chatwoot_client_sdk?color=blueviolet)](https://pub.dev/packages/chatwoot_sdk)
 
 # Integrate Chatwoot with Flutter app
 
